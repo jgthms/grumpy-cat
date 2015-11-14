@@ -7,8 +7,9 @@
     <title>Contact Grumpy Cat</title>
     <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700">
     <link rel="stylesheet" href="zoom.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <nav class="navbar navbar-dark bg-primary">
@@ -95,47 +96,58 @@
           <div class="card">
             <div class="card-block">
               <h4 class="card-title">Contact</h4>
-              <form>
+              <form id="contact">
                 <fieldset class="form-group">
-                  <input type="text" class="form-control"placeholder="Name">
+                  <input id="name" type="text" class="form-control"placeholder="Name">
                 </fieldset>
                 <fieldset class="form-group">
-                  <textarea class="form-control" placeholder="Message"></textarea>
+                  <textarea id="message" class="form-control" placeholder="Message"></textarea>
                 </fieldset>
                 <div class="checkbox">
                   <label>
-                    <input type="checkbox"> I'm a cat!
+                    <input id="checkbox" type="checkbox"> I'm a cat!
                   </label>
                 </div>
                 <button type="submit" class="btn btn-primary">Send message</button>
               </form>
+              <div id="error-text" class="alert alert-danger">
+                <strong>Grrr!</strong> Your need to fill all the fields!
+              </div>
+              <div id="error-checkbox" class="alert alert-danger">
+                <strong>Grrr!</strong> You're not a cat!
+              </div>
+              <div id="success" class="alert alert-success">
+                <strong>Meow!</strong> You successfully posted a message.
+              </div>
             </div>
           </div>
 
           <div class="card">
             <div class="card-block">
               <h4 class="card-title">Messages</h4>
-              <div class="comment">
-                <strong>Garfield</strong>
-                <small>Nov 13 23:04</small>
+              <div id="comments">
+                <div class="comment">
+                  <strong>Garfield</strong>
+                  <small>2015-11-20</small>
+                  <p>
+                    Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                  </p>
+                </div>
+                <div class="comment">
+                  <strong>Felix</strong>
+                  <small>2015-11-14</small>
+                  <p>
+                    Hello!!
+                  </p>
+                </div>
+                <div class="comment">
+                  <strong>Tom</strong>
+                  <small>2015-08-23</small>
+                  <p>
+                    Why so grumpy??
+                  </p>
+                </div>
               </div>
-              <p>
-                Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              </p>
-              <div class="comment">
-                <strong>Felix</strong>
-                <small>Nov 13 23:00</small>
-              </div>
-              <p>
-                Hello!!
-              </p>
-              <div class="comment">
-                <strong>Droopy</strong>
-                <small>Nov 12 9:23</small>
-              </div>
-              <p>
-                Why so grumpy??
-              </p>
             </div>
           </div>
         </div>
@@ -199,5 +211,6 @@
     <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
     <script src="transition.js"></script>
     <script src="zoom.js"></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
