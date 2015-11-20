@@ -1,0 +1,38 @@
+@import "bootstrap-v4.css";
+@import "font-awesome.css";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,700);
+
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  min-width: 300px;
+  text-rendering: optimizeLegibility;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.card-footer a {
+  margin: 0 3px;
+}
+
+.card-footer .fa {
+  font-size: 21px;
+}
+
+.jumbotron {
+  background-color: #222324;
+  background-image: url("/grumpy-with-glasses.jpg");
+  background-size: cover;
+  border-radius: 0;
+  color: white;
+  display: table;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+}
+
+.jumbotron .btn {
+  margin-top: 20px;
+}

@@ -1,0 +1,134 @@
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  min-width: 300px;
+  text-rendering: optimizeLegibility;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.card-footer a {
+  margin: 0 3px;
+}
+
+.card-footer .fa {
+  font-size: 21px;
+}
+
+.jumbotron {
+  background-color: #222324;
+  background-image: url("/grumpy-with-glasses.jpg");
+  background-size: cover;
+  border-radius: 0;
+  color: white;
+  display: table;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+}
+
+.jumbotron .btn {
+  margin-top: 20px;
+}
+
+/*=================*/
+
+html {
+  background-color: #f5f7f9;
+}
+
+body {
+  background: none;
+  color: #69707a;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+strong {
+  color: #222324;
+}
+
+.navbar {
+  background: #e16879;
+}
+
+.btn {
+  font-weight: 300;
+}
+
+.btn-primary {
+  background: #e16879;
+  border-color: #e16879;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  background: #e05164;
+  border-color: #e05164;
+}
+
+.card {
+  border-color: #ccc;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .05)
+}
+
+.card-title {
+  color: #e16879;
+  font-weight: 300;
+}
+
+.card-block small {
+  float: right;
+}
+
+.description {
+  background-image: url("/pattern.png");
+  background-repeat: repeat-x;
+}
+
+.description a {
+  color: #69707a;
+  font-size: 21px;
+  margin: 0 5px;
+}
+
+.description a:hover {
+  color: #e16879;
+}
+
+.information p {
+  font-size: 14px;
+  margin-bottom: 5px;
+  padding-left: 22px;
+  position: relative;
+}
+
+.information .fa {
+  font-size: 14px;
+  left: 0;
+  line-height: 21px;
+  margin-bottom: 5px;
+  opacity: .5;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+  width: 16px;
+}
+
+.skills p {
+  color: #222324;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.skills progress {
+  border-radius: 5px;
+  height: 10px;
+}
+
+.interests small {
+  color: #aeb1b5;
+}
