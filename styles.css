@@ -105,14 +105,24 @@ textarea.form-control {
   width: 100px;
 }
 
-.about {
+.description .card-footer a {
+  color: #69707a;
+  font-size: 21px;
+  margin: 0 5px;
+}
+
+.description .card-footer a:hover {
+  color: #e16879;
+}
+
+.information p {
   font-size: 14px;
   margin-bottom: 5px;
   padding-left: 22px;
   position: relative;
 }
 
-.about .fa {
+.information .fa {
   font-size: 14px;
   left: 0;
   line-height: 21px;
@@ -124,26 +134,18 @@ textarea.form-control {
   width: 16px;
 }
 
-.social a {
-  color: #69707a;
-  font-size: 21px;
-  margin: 0 5px;
-}
-
-.social a:hover {
-  color: #e16879;
-}
-
-.skill {
+.skills {
   color: #222324;
   font-size: 14px;
   font-weight: bold;
 }
 
-.skill progress {
+.skills progress {
   border-radius: 5px;
   height: 10px;
 }
+
+/*Deprecated*/
 
 .comment {
   border-top: 1px solid #ebeff5;
